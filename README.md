@@ -43,6 +43,8 @@ The dataset includes:
 ```DAX
 Total Waitlist = COUNT('Waitlist'[Patient_ID])
 
+---
+
 ### Previous Year Waitlist
 ```DAX
 PY Waitlist = 
@@ -50,6 +52,8 @@ CALCULATE(
     [Total Waitlist],
     SAMEPERIODLASTYEAR('Date'[Date])
 )
+
+---
 
 ### Waitlist change %
 ```DAX
@@ -59,6 +63,7 @@ DIVIDE([Total Waitlist] - [PY Waitlist], [PY Waitlist])
 ### Average Wait Time
 ```DAX
 Avg Wait Time = AVERAGE('Waitlist'[Wait_Time])
+
 ---
 
 ## 📊 Visualizations
@@ -66,24 +71,28 @@ Avg Wait Time = AVERAGE('Waitlist'[Wait_Time])
 - Donut Chart (Case Type Distribution)
 - Bar Chart (Waitlist by Specialty)
 - Matrix Table (Age Group vs Wait Time)
+
 ---
 
 ## 🔍 Key Insights
 - Waitlist increased by 12% YoY
 - Outpatients represent ~72% of total cases
 - Long wait times (6–18 months) dominate
+
 ---
 
 ## 💡 Business Recommendations
 - Increase outpatient capacity
 - Prioritize high-delay specialties
 - Improve scheduling and triage systems
+
 ---
 
 ## 🛠 Tools Used
 - Power BI
 - DAX
 - Data Modeling
+
 ---
 
 ## 📌 Outcome
