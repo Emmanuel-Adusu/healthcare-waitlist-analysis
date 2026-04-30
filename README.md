@@ -99,14 +99,3 @@ Avg Wait Time = AVERAGE('Waitlist'[Wait_Time])
 
 This dashboard helps stakeholders identify operational bottlenecks and improve healthcare delivery efficiency.
 
----
-
-## 📊 Dataset Description
-The dataset includes:
-- Patient ID
-- Age group
-- Case type (Inpatient / Outpatient / Day Case)
-- Specialty
-- Wait time band
-- Date
-
