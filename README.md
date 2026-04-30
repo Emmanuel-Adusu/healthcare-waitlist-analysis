@@ -42,6 +42,7 @@ The dataset includes:
 ### Total Waitlist
 ```DAX
 Total Waitlist = COUNT('Waitlist'[Patient_ID])
+
 ### Previous Year Waitlist
 ```DAX
 PY Waitlist = 
@@ -49,10 +50,12 @@ CALCULATE(
     [Total Waitlist],
     SAMEPERIODLASTYEAR('Date'[Date])
 )
+
 ### Waitlist change %
 ```DAX
 Waitlist Change % = 
 DIVIDE([Total Waitlist] - [PY Waitlist], [PY Waitlist])
+
 ### Average Wait Time
 ```DAX
 Avg Wait Time = AVERAGE('Waitlist'[Wait_Time])
