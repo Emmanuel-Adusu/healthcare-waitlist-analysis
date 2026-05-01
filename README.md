@@ -149,7 +149,7 @@ Avg Wait Time = AVERAGE('Waitlist'[Wait_Time])
 - 📈 Waitlist increased by 12% YoY, indicating growing demand or capacity constraints
 - 🏥 Outpatients account for ~72% of total cases
 - ⏳ Longest delays occur in the 6–18 month range
-- 🧠 Certain specialties show significantly higher wait times
+- 🧠Certain specialties show significantly higher wait times
 
 ---
 
