@@ -179,6 +179,16 @@ Excel – Data preparation
 - Monitor patient flow
 - Make data-driven decisions to reduce wait times
 
+---
+
+## 👤 Author
+
+Emmanuel Adusu
+Data Analyst | Power BI | SQL | Business Intelligence
+
+📧 Email: adusue191@gmail.com
+
+🌐 Portfolio: https://emmanuel-adusu.github.io/
 
 
 
