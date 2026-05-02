@@ -140,7 +140,7 @@ Avg Wait Time = AVERAGE('Waitlist'[Wait_Time])
 - Drill-down Table (Age Group vs Time Bands)
 
 ### 📸 Dashboard Preview 
-
+![Patient waitlist dashboard](images/Patient_dashboard.png)
 
 ---
 
